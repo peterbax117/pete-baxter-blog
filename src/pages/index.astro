@@ -1,0 +1,30 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Pete Baxter</h1>
+			<p>
+				I'm a Cloud Solution Architect working in financial services. This site is where I
+				write up things I've worked through — Azure architecture, cloud engineering, and
+				whatever else is worth a longer note than a social post.
+			</p>
+			<p>
+				Start with the <a href="/blog">blog</a>, or read a bit
+				<a href="/about">about me</a>.
+			</p>
+			<!-- TODO: replace this intro with your own words. -->
+		</main>
+		<Footer />
+	</body>
+</html>

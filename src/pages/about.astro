@@ -1,0 +1,25 @@
+---
+import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="About"
+	description="About Pete Baxter."
+	pubDate={new Date()}
+	heroImage={AboutHeroImage}
+>
+	<p>
+		I'm Pete Baxter, a Cloud Solution Architect working with financial services
+		customers. I spend most of my time on Azure architecture and the engineering
+		that goes with it.
+	</p>
+
+	<p>
+		This site is where I write up the work in more depth than fits in a post — the
+		problems, the tradeoffs, and what actually shipped.
+	</p>
+
+	<!-- TODO: replace this with your own bio. Links, background, what you want
+	     people to take away. -->
+</Layout>
