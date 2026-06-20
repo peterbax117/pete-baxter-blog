@@ -9,11 +9,36 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <div class="mb-10 text-justify">
-    I'm Pete Baxter, a Cloud Solution Architect working with financial services
-    customers. I spend most of my time on Azure architecture and the engineering
-    that goes with it. This site is where I write up the work in more depth than
-    fits in a post — the problems, the tradeoffs, and what actually shipped.
-    <!-- TODO: replace this with your own bio. -->
+    <p class="mb-4">
+      I'm Pete Baxter, a Principal Cloud Solution Architect at Microsoft. I've
+      been here since 1998, and I've spent the last several years focused on
+      financial services and banking, helping some of the largest regulated
+      enterprises design and run secure workloads on Azure.
+    </p>
+    <p class="mb-4">
+      My current focus is enterprise Network Architecture on Azure: Virtual WAN
+      and ExpressRoute, Hub-and-Spoke Topologies, and Secure Connectivity at
+      scale. Close behind are the regulated-cloud workloads I've spent years on:
+      Azure Government and FedRAMP High, AKS and Container Platforms, Capacity
+      and Resiliency, and the Security and Governance controls that have to hold
+      up under audit. Much of that is operational work: disaster recovery,
+      capacity planning, platform migrations, and finding the root cause of the
+      incident at 2 a.m.
+    </p>
+    <p class="mb-4">
+      Alongside the customer work, I lead a worldwide train-the-trainer program
+      for Microsoft's cloud architects and have owned new-hire and
+      trainer-development content for over 15 years. I'm also deep in AI tooling
+      for engineers, working hands-on with GitHub Copilot, the Copilot CLI, and
+      Microsoft Scout, and serving as an early adopter and design partner for
+      Microsoft's internal AI tools.
+    </p>
+    <p>
+      Outside work, I've been married for 31 years and I'm a father of five,
+      based in Charlotte, North Carolina. When I'm not in front of a terminal
+      you'll find me hiking, swimming, building things in Minecraft with my kids,
+      or automating some new corner of my smart home.
+    </p>
   </div>
 
   <div class="mb-5">
@@ -22,10 +47,38 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Cloud Solution Architect"
-      subtitle="Microsoft"
+      title="Principal Cloud Solution Architect"
+      subtitle="Microsoft · 2022 – Present"
     >
-      <!-- TODO: describe your role and focus areas. -->
+      Architecture lead for major financial services and banking customers on
+      Azure. Current focus on enterprise connectivity (Azure Virtual WAN,
+      ExpressRoute) and AI tooling for engineers, with regulated workloads
+      (Azure Government / FedRAMP High), AKS resiliency and DR, capacity
+      assurance, and cloud security. Frequent escalation point for
+      high-severity architecture and incident work.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Senior Cloud Solution Architect"
+      subtitle="Microsoft · 2016 – 2022"
+    >
+      Moved from on-product field engineering into Azure architecture, building
+      cloud delivery skills across the Cloud Adoption and Well-Architected
+      Frameworks, landing zones, and financial-services workloads.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Senior Premier Field Engineer"
+      subtitle="Microsoft · 2006 – 2016"
+    >
+      Field engineering with a SharePoint specialty; Master Trainer and content
+      owner for new-hire role-immersion training; technical lead on enterprise
+      customer accounts.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Support & .NET Engineer"
+      subtitle="Microsoft · 1998 – 2006"
+    >
+      Product support and internal-tools development in Product Support Services,
+      including the Critical Situation (CritSit) management platform.
     </TimeLineElement>
   </div>
 
@@ -34,16 +87,31 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>TODO: add certifications (with links)</li>
+    <li>Microsoft Certified: Azure Solutions Architect Expert (AZ-305)</li>
+    <li>Microsoft Certified: Azure Security Engineer Associate (AZ-500)</li>
+    <li>Microsoft Certified: Azure Administrator Associate (AZ-104)</li>
+    <li>Microsoft Certified: Azure AI Fundamentals (AI-900)</li>
   </ul>
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Skills</div>
   </div>
 
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Azure</li>
-    <li>Cloud architecture</li>
-    <li>TODO: add skills</li>
+  <ul class="list-disc md:columns-3 columns-2 mx-6">
+    <li>Azure Virtual WAN</li>
+    <li>Azure ExpressRoute</li>
+    <li>Azure Networking &amp; Ingress</li>
+    <li>Azure Architecture</li>
+    <li>AKS &amp; Containers</li>
+    <li>FedRAMP High / Azure Government</li>
+    <li>Cloud Security &amp; Governance</li>
+    <li>Resiliency &amp; Disaster Recovery</li>
+    <li>Landing Zones (CAF / WAF)</li>
+    <li>Infrastructure as Code</li>
+    <li>Regulated / FSI Cloud</li>
+    <li>GitHub Copilot &amp; Copilot CLI</li>
+    <li>Microsoft Scout</li>
+    <li>AI &amp; Agentic Workloads</li>
+    <li>Technical Training &amp; Enablement</li>
   </ul>
 </BaseLayout>
